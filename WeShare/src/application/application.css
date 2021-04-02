@@ -2,3 +2,7 @@
 	-fx-background-image: url("Desert.jpg");	
 	-fx-background-size:100% 100%;
 }
+.root{
+	-fx-background-color:#97BBFF;
+		
+}
