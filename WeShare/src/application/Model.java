@@ -16,8 +16,12 @@ public class Model{
   User userInfo=new User();
   private static HashMap<String, userInfo> h=new HashMap<String, userInfo>();
   private Properties properties=new Properties();
- 
+  Alert a=new Alert(AlertType.NONE);
   
- Alert a=new Alert(AlertType.NONE);
- public void user
+  public boolean userIDValidation(String id){
+    Pattern p=Pattern.compile("\w{8,15}"};
+    Matcher m=p.matcher(id);
+    if(!m.find()){
+      a.setAler
+  }
 }
