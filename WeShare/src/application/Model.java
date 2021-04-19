@@ -20,9 +20,10 @@ public class Model throws IOException{
   Alert a=new Alert(AlertType.NONE);
   
   public boolean userFormatValidation(String id, String password){
-    Pattern p=Pattern.compile("\w{8,15}"};
-    Matcher m1=p.matcher(id);
-    Matcher m2=p.matcher(password);
+    Pattern p1=Pattern.compile("\w{8,15}");
+    Matcher m1=p1.matcher(id);
+    Pattern p2=Patterm.compile("\S{8,15}");                          
+    Matcher m2=p2.matcher(password);
     
     if(!m1.find() || !m2.find()){
       a.setAlertType(AlertType.ERROR);
