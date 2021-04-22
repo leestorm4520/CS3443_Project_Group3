@@ -8,7 +8,7 @@ import javafx.fxml.FXMLLoader;
 
 
 public class Main extends Application {
-	public static final long begin = System.nanoTime();
+	public static final long begin = System.nanoTime(); // Initialize the timer variable for future use
 	
 	@Override
 	public void start(Stage primaryStage) {
