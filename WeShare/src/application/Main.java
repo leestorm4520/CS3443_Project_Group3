@@ -8,6 +8,8 @@ import javafx.fxml.FXMLLoader;
 
 
 public class Main extends Application {
+	public static final long begin = System.nanoTime();
+	
 	@Override
 	public void start(Stage primaryStage) {
 		try {
