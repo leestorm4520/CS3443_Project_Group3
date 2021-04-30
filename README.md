@@ -1,5 +1,5 @@
 # CS3443_Project_Group3
-WeShare\n
+WeShare
 Name of project: WeShare
 Team name: BetterTogether
 Collaborators: Tyler Holstein Tiba Al Anssari, Lisette Isais, John Le, Samuel Shiau
